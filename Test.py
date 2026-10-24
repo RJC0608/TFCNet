@@ -6,7 +6,7 @@ import pdb, os, argparse, cv2
 # from scipy import misc
 import time
 import imageio
-from model.t import MEANet
+from model.TFCNet import TFCNet
 from utils1.data import test_dataset
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 torch.cuda.set_device(0)
