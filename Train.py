@@ -13,7 +13,6 @@ import torch.backends.cudnn as cudnn
 import eval.metrics as Measure
 import pytorch_iou
 import pytorch_fm
-
 from utils.clip_grad import clip_gradient
 from utils.dataset import get_loader, test_dataset
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
